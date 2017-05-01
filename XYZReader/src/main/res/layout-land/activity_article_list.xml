@@ -43,7 +43,7 @@
             android:layout_marginLeft="100dp"
             android:layout_marginRight="100dp"
             android:layout_height="match_parent"
-            layout="@layout/include_book_grid"
+            layout="@layout/include_article_grid"
             android:paddingTop="116dp" />
 
 </android.support.design.widget.CoordinatorLayout>

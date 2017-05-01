@@ -17,15 +17,17 @@
 
 <resources>
 
-    <style name="Theme.Bacon" parent="@style/Theme.AppCompat.Light.NoActionBar">
+    <style name="App.Theme" parent="@style/Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimary">@color/theme_primary</item>
         <item name="colorPrimaryDark">@color/theme_primary_dark</item>
         <item name="colorAccent">@color/theme_accent</item>
         <item name="android:fontFamily">sans-serif</item>
     </style>
 
-    <style name="Theme.Bacon.Detail" parent="Theme.Bacon">
-        <item name="android:statusBarColor">@android:color/transparent</item>
+    <style name="Theme.Bacon.Detail" parent="App.Theme">
+    </style>
+    
+    <style name="App.Theme.Articles" parent="App.Theme">
     </style>
 
 </resources>
