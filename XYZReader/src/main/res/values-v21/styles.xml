@@ -14,7 +14,6 @@
     </style>
 
     <style name="App.Theme.Articles" parent="App.Theme">
-        <item name="android:windowExitTransition">@transition/article_grid_exit</item>
     </style>
 
 </resources>
