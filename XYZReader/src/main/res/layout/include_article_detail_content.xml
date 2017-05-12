@@ -13,6 +13,7 @@
         android:layout_gravity="center_horizontal"
         android:background="#fff"
         android:maxWidth="@dimen/detail_card_max_width"
+        android:descendantFocusability="blocksDescendants"
         android:orientation="vertical">
 
         <LinearLayout
