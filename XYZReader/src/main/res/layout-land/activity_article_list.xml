@@ -44,6 +44,6 @@
             android:layout_marginRight="100dp"
             android:layout_height="match_parent"
             layout="@layout/include_article_grid"
-            android:paddingTop="116dp" />
+            android:paddingTop="@dimen/list_top_margin" />
 
 </android.support.design.widget.CoordinatorLayout>
