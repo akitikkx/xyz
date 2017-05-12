@@ -9,10 +9,6 @@
         <item name="android:windowContentTransitions">true</item>
     </style>
 
-    <style name="Theme.Bacon.Detail" parent="App.Theme">
-        <item name="android:statusBarColor">@android:color/transparent</item>
-    </style>
-
     <style name="App.Theme.Articles" parent="App.Theme">
         <item name="android:windowExitTransition">@transition/article_list_exit</item>
     </style>

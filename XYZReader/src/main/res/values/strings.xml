@@ -15,5 +15,6 @@
         Yuck there\'s nothing like the dead pestilence whining on the sun.</string>
 
     <string name="transition_article_image">Article Image Transition</string>
+    <string name="title_activity_test">TestActivity</string>
 
 </resources>

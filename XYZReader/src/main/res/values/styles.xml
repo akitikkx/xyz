@@ -24,7 +24,19 @@
         <item name="android:fontFamily">sans-serif</item>
     </style>
 
-    <style name="Theme.Bacon.Detail" parent="App.Theme">
+    <style name="App.Theme.Detail.Title" parent="App.Theme">
+        <item name="android:textAppearance">?android:attr/textAppearanceLargeInverse</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:textSize">@dimen/detail_title_text_size</item>
+    </style>
+
+    <style name="App.Theme.Detail.Caption" parent="App.Theme">
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textColor">@color/text_caption</item>
+    </style>
+
+    <style name="App.Theme.Detail.Body" parent="App.Theme">
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
     </style>
     
     <style name="App.Theme.Articles" parent="App.Theme">
