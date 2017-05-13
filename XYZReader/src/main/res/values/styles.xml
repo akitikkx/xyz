@@ -24,18 +24,21 @@
         <item name="android:fontFamily">sans-serif</item>
     </style>
 
-    <style name="App.Theme.List" parent="App.Theme">
-        <item name="android:paddingBottom">@dimen/card_title_area_margin_bottom</item>
-        <item name="android:paddingLeft">@dimen/card_padding_horizontal</item>
-        <item name="android:paddingRight">@dimen/card_padding_horizontal</item>
-    </style>
+    <style name="App.Theme.List" parent="App.Theme" />
 
     <style name="App.Theme.List.Title" parent="App.Theme.List">
         <item name="android:textAppearance">@style/TextAppearance.AppCompat.Title</item>
+        <item name="android:paddingBottom">@dimen/card_title_margin_bottom</item>
+        <item name="android:paddingLeft">@dimen/card_padding_horizontal</item>
+        <item name="android:paddingRight">@dimen/card_padding_horizontal</item>
+        <item name="android:paddingTop">@dimen/card_title_area_margin_top</item>
     </style>
 
     <style name="App.Theme.List.Caption" parent="App.Theme.List">
         <item name="android:textAppearance">@style/TextAppearance.AppCompat.Caption</item>
+        <item name="android:paddingBottom">@dimen/card_title_area_margin_bottom</item>
+        <item name="android:paddingLeft">@dimen/card_padding_horizontal</item>
+        <item name="android:paddingRight">@dimen/card_padding_horizontal</item>
     </style>
 
     <style name="App.Theme.Detail.Title" parent="App.Theme">

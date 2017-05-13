@@ -11,9 +11,6 @@
 
     <style name="App.Theme.List" parent="App.Theme">
         <item name="android:windowExitTransition">@transition/article_list_exit</item>
-        <item name="android:paddingBottom">@dimen/card_title_area_margin_bottom</item>
-        <item name="android:paddingLeft">@dimen/card_padding_horizontal</item>
-        <item name="android:paddingRight">@dimen/card_padding_horizontal</item>
     </style>
 
 </resources>
