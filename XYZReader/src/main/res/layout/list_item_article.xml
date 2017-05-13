@@ -28,27 +28,22 @@
 
         <TextView
             android:id="@+id/article_title"
-            style="@style/TextAppearance.AppCompat.Title"
+            style="@style/App.Theme.List.Title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
             android:maxLines="4"
             android:paddingBottom="@dimen/card_title_margin_bottom"
-            android:paddingLeft="@dimen/card_padding_horizontal"
-            android:paddingRight="@dimen/card_padding_horizontal"
             android:paddingTop="@dimen/card_title_area_margin_top"
             tools:text="@string/article_title" />
 
         <TextView
             android:id="@+id/article_subtitle"
-            style="@style/TextAppearance.AppCompat.Caption"
+            style="@style/App.Theme.List.Caption"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
             android:maxLines="2"
-            android:paddingBottom="@dimen/card_title_area_margin_bottom"
-            android:paddingLeft="@dimen/card_padding_horizontal"
-            android:paddingRight="@dimen/card_padding_horizontal"
             tools:text="@string/article_subtitle" />
     </LinearLayout>
 
