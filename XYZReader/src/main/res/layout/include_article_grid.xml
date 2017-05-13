@@ -12,7 +12,7 @@
         android:paddingBottom="@dimen/list_side_margin"
         android:paddingLeft="@dimen/list_side_margin"
         android:paddingRight="@dimen/list_side_margin"
-        android:paddingTop="@dimen/list_top_margin"
+        android:paddingTop="@dimen/list_vertical_margin"
         android:visibility="gone"
         android:scrollbarStyle="outsideOverlay" />
 

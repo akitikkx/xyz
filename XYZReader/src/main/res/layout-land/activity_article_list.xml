@@ -37,13 +37,13 @@
 
     </android.support.design.widget.AppBarLayout>
 
-        <include
-            android:layout_width="match_parent"
-            android:layout_gravity="center"
-            android:layout_marginLeft="100dp"
-            android:layout_marginRight="100dp"
-            android:layout_height="match_parent"
-            layout="@layout/include_article_grid"
-            android:paddingTop="@dimen/list_top_margin" />
+    <include
+        layout="@layout/include_article_grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/list_vertical_margin"
+        android:layout_marginRight="@dimen/list_vertical_margin"
+        android:paddingTop="@dimen/list_vertical_margin" />
 
 </android.support.design.widget.CoordinatorLayout>

@@ -12,7 +12,15 @@
     <dimen name="app_bar_height">116dp</dimen>
 
     <dimen name="card_elevation">2dp</dimen>
+    <dimen name="card_margin_horizontal">4dp</dimen>
+    <dimen name="card_margin_vertical">4dp</dimen>
+    <dimen name="card_title_area_margin_top">24dp</dimen>
+    <dimen name="card_title_area_margin_bottom">16dp</dimen>
+    <dimen name="card_title_margin_bottom">4dp</dimen>
+    <dimen name="card_padding_horizontal">16dp</dimen>
+
     <dimen name="photo_background_protection">112dp</dimen>
-    <dimen name="list_top_margin">100dp</dimen>
+
+    <dimen name="list_vertical_margin">100dp</dimen>
 
 </resources>
