@@ -42,6 +42,8 @@
         <item name="android:textAppearance">?android:attr/textAppearanceLargeInverse</item>
         <item name="android:fontFamily">sans-serif-condensed</item>
         <item name="android:textSize">@dimen/detail_title_text_size</item>
+        <item name="android:paddingBottom">@dimen/detail_metabar_title_bottom_padding</item>
+        <item name="android:lineSpacingMultiplier">0.9</item>
     </style>
 
     <style name="App.Theme.Detail.Caption" parent="App.Theme">
@@ -51,6 +53,12 @@
 
     <style name="App.Theme.Detail.Body" parent="App.Theme">
         <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:layout_marginLeft">@dimen/detail_inner_horiz_margin</item>
+        <item name="android:layout_marginRight">@dimen/detail_inner_horiz_margin</item>
+        <item name="android:paddingBottom">@dimen/detail_body_bottom_margin</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:lineSpacingMultiplier">@fraction/detail_body_line_spacing_multiplier
+        </item>
     </style>
 
 </resources>
