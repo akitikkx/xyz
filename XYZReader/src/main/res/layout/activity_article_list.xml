@@ -15,7 +15,7 @@
             android:layout_height="match_parent"
             android:fitsSystemWindows="true"
             app:contentScrim="?colorPrimary"
-            app:layout_scrollFlags="snap">
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
             <android.support.v7.widget.Toolbar
                 android:id="@+id/toolbar"
@@ -38,14 +38,5 @@
     </android.support.design.widget.AppBarLayout>
 
     <include layout="@layout/include_article_grid" />
-
-    <ProgressBar
-        android:id="@+id/progressBar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:visibility="visible"
-        android:gravity="center_horizontal"
-        android:layout_gravity="center_horizontal"/>
-
 
 </android.support.design.widget.CoordinatorLayout>
